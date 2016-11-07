@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>HackTX Audio by michaelasper</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>HackTX Audio</h1>
+        <p>Deep Learning with Audio</p>
+
+        <p class="view"><a href="https://github.com/michaelasper/HackTXAudio">View the Project on GitHub <small>michaelasper/HackTXAudio</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/michaelasper/HackTXAudio/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/michaelasper/HackTXAudio/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/michaelasper/HackTXAudio">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h3>
+<a id="the-idea" class="anchor" href="#the-idea" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The Idea.</h3>
+
+<p>We started hackathon with a goal in mind: to train a computer to generate some sort of audio. This isn't particularly a new idea; however most previous attempts tend to rely on paino/classical music were the music is scored, and more likely to be trained on the sheet music itself rather than the audio or MIDI files which is a digital representation of sheet music for many genres of music. </p>
+
+<p>Our idea was to learn straight from the waves and frequency of the music and trained them as sequences. Sort of cutting up the song by 50 samples of frequencies and traing as a sequence.</p>
+
+<h3>
+<a id="the-results" class="anchor" href="#the-results" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The Results</h3>
+
+<p>The competition start at <strong>12:00pm</strong> and the majority of the team fell asleep at <strong>6:00am after very little breaks.</strong> We were able to create a LSTM model that learned; however, our biggest defeators was training time and lack of sleep. After succesfully creating our model, our training time was 34000 seconds, roughy 9-10 hours. We did not have time to train it; however we were able to get ahold of a cloud server, but it took approximately 2 hours to get it running with our code. We did get it working and the training time down to an <strong>astonishing 5-8 minutes.</strong> If it wasn't due to time constraints of the event, we would of had a fully working model that could predict music as well.</p>
+
+<p>I was very happy we decided on the LSTM model as I believed it was the right fit. If you would like to learn more about LSTM models, <a href="http://colah.github.io/posts/2015-08-Understanding-LSTMs/">read here</a></p>
+
+<h3>
+<a id="looking-back" class="anchor" href="#looking-back" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Looking back.</h3>
+
+<p>Some things that would've been done differently is focusing on <strong>mono</strong> audio instead of <strong>stereo</strong> as that would've been easier to preprocess, train, and predict. Have a cloud computer prepared already instead of wasting time getting it running at 4am, and the last thing I felt like would've been helpful was a more organized way of keeping all the code clean and together instead of separated on laptops. (I cannot promise I found all of the code from this project as we were very distracted we didn't push to the repository as much as wanted).</p>
+
+<h3>
+<a id="authors" class="anchor" href="#authors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors</h3>
+
+<ul>
+<li>Michael Asper - <a href="mailto:michael@asperdx.com">michael@asperdx.com</a> - University of Texas</li>
+<li>Kathryn Baldauf - - University of Texas</li>
+<li>Kristin Hamilton -  <a href="mailto:khamilt2@stedwards.edu">khamilt2@stedwards.edu</a> - St. Edward's University</li>
+<li>Naseem Raad - - St. Edward's University</li>
+<li>David Green - <a href="mailto:david.green@utexas.edu">david.green@utexas.edu</a> - University of Texas</li>
+</ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/michaelasper">michaelasper</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
