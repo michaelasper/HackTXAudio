@@ -3,6 +3,11 @@ from matplotlib import pyplot as plt
 import scipy.io.wavfile as wav
 from numpy.lib import stride_tricks
 
+#Goal of this program was to utilize the convert_song_to_sftf.py program to visualize our STFTs and compare with 
+#Audacity to make sure we weren't losing much information
+
+
+
 """ short time fourier transform of audio signal """
 def stft(sig, frameSize, overlapFac=0.5, window=np.hanning):
     win = window(frameSize)
