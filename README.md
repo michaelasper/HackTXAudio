@@ -6,7 +6,7 @@
 * Michael Asper - michael@asperdx.com - University of Texas
 * Kathryn Baldauf - - University of Texas
 * Kristin Hamilton -  khamilt2@stedwards.edu - St. Edward's University
-* Naseem Raad - - St. Edward's University
+* Naseem Raad - nraad1@stedwards.edu - St. Edward's University
 * David Green - david.green@utexas.edu - University of Texas
 
 
